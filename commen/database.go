@@ -16,7 +16,7 @@ func InitDB() *gorm.DB {
 	port := "3306"
 	database := "ginvue"
 	username := "root"
-	password := "1120MaJunNan."
+	password := "root"
 	charset := "utf8"
 	arg := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=%s&parseTime=true",
 		username,
